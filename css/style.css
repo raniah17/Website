@@ -1,0 +1,521 @@
+Body {
+	Margin: 0;
+	Padding: 0;
+	background-image: url(../images/background1.jpg);
+	background-size: contain;
+	Font-family: ‘Abel’, sans-serif;
+	Font-size: 18px;
+	Color: #5B5B5B;
+}
+
+H1, h2, h3 {
+	Margin: 0;
+	Padding: 0;
+	Text-transform: uppercase;
+	Font-weight: normal;
+	Font-family: ‘Oswald’, sans-serif;
+	Font-weight: 200;
+	Color: #222222;
+}
+
+H1 {
+	Font-size: 2em;
+}
+
+H2 {
+	Font-size: 2.8em;
+}
+
+H3 {
+	Font-size: 1.6em;
+}
+
+P, ul, ol {
+	Margin-top: 0;
+	Line-height: 180%;
+}
+
+Ul, ol {
+}
+
+A {
+	Color: #5E5E5E;
+}
+
+A:hover {
+}
+
+#wrapper {
+}
+
+.container {
+	Width: 1000px;
+	Margin: 0px auto;
+}
+
+
+#header-wrapper {
+	Overflow: hidden;
+	Height: 600px;
+
+}
+
+#header {
+	Overflow: hidden;
+	Width: 1000px;
+	Height: 150px;
+	Margin: 0 auto;
+	Padding: 10px 10px;
+}
+
+
+#logo {
+	Float: left;
+	Width: 300px;
+	Margin: 0;
+	Padding: 40px;
+	Color: #FFFFFF;
+}
+
+#logo h1, #logo p {
+}
+
+#logo h1 {
+	Line-height: 120px;
+	Font-size: 3em;
+}
+
+p {
+	font-size: 20px;
+}
+
+/* Menu */
+
+#menu {
+	Float: right;
+	Width: 500px;
+	Height: 90px;
+	Margin: 0 auto;
+	Padding: 0;
+}
+
+#menu ul {
+	Float: right;
+	Margin: 0;
+	Padding: 50px 0px 0px 0px;
+	List-style: none;
+	Line-height: normal;
+}
+
+#menu li {
+	Float: left;
+	Padding: 0px 0px 0px 0p;
+}
+
+#menu a {
+	Display: block;
+	Margin-right: 1px;
+	Padding: 10px 20px 10px 20px;
+	Text-decoration: none;
+	Text-align: center;
+	Text-transform: uppercase;
+	Font-family: ‘Oswald’, sans-serif;
+	Font-size: 14px;
+	Font-weight: 300;
+	Color: Black;
+	Border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	Text-decoration: none;
+	Color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+	Background: #132434;
+	Border-radius: 5px;
+}
+
+
+/* Page */
+
+#page {
+	Width: 1000px;
+	Margin: 0 auto;
+	Padding: 30px 20px;
+	Background: #FFDEAD;
+}
+
+/* Content */
+
+#content {
+	Float: left;
+	Width: 660px;
+	Padding: 0px 0px 0px 0px;
+}
+}
+.post {
+	Overflow: hidden;
+	Margin-bottom: 40px;
+}
+
+.post .title {
+	Padding: 7px 0px 0px 0px;
+	Letter-spacing: -1px;
+}
+
+.post .title a {
+	Border: none;
+	Text-decoration: none;
+	Color: #222222;
+}
+
+.post .meta {
+	Margin-bottom: 30px;
+	Padding: 10px 0px 0px 0px;
+	Text-align: left;
+	Font-family: ‘Abel’, sans-serif;
+	Font-size: 16px;
+	Font-weight: 300;
+}
+
+.post .meta .date {
+	Float: left;
+}
+
+.post .meta .posted {
+	Float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	Padding: 0px 0px 40px 0px;
+	Text-align: justify;
+}
+
+.links {
+	Padding-top: 20px;
+	Margin-bottom: 30px;
+}
+
+.more {
+	Display: block;
+	Float: left;
+	Width: 88px;
+	Padding: 5px 5px;
+	Margin-right: 10px;
+	Background: #132434;
+	Border-radius: 5px;
+	Color: #FFFFFF;
+	Text-align: center;
+	Text-decoration: none;
+}
+
+
+
+/* Sidebar */
+
+#sidebar {
+	Float: right;
+	Width: 270px;
+	Margin: 0px;
+	Padding: 30px 0px 0px 0px;
+	font-color:black;
+}
+
+#sidebar ul {
+	Margin: 0;
+	Padding: 0;
+	List-style: none;
+}
+
+#sidebar li {
+	Margin: 0;
+	Padding: 0;
+}
+
+#sidebar li ul {
+	Margin: 0px 0px;
+	Padding-bottom: 30px;
+}
+
+#sidebar li li {
+	Line-height: 40px;
+	Border-bottom: 1px solid #E7EBED;
+	Margin: 0px 0px;
+	Border-left: none;
+}
+
+#sidebar li li span {
+	Display: block;
+	Margin-top: -20px;
+	Padding: 0;
+	Font-size: 11px;
+	Font-style: italic;
+}
+#sidebar h2 {
+	Height: 38px;
+	Padding: 0px 0px 30px 0px;
+	Letter-spacing: -.5px;
+	Font-size: 1.8em;
+	Color: black;
+}
+
+#sidebar p {
+	Margin: 0 0px;
+	Padding: 0px 30px 20px 30px;
+	Text-align: justify;
+}
+
+#sidebar a {
+	Border: none;
+}
+
+#sidebar a:hover {
+	Text-decoration: underline;
+}
+
+
+#calendar {
+}
+
+#calendar_wrap {
+	Padding: 20px;
+}
+
+#calendar table {
+	Width: 100%;
+}
+
+#calendar tbody td {
+	Text-align: center;
+}
+
+#calendar #next {
+	Text-align: right;
+}
+
+/* Three Column Footer Content */
+
+#footer-content-wrapper {
+	Background: #F4F3EE url(images/berry1.jpg) repeat;
+}
+
+#footer-content {
+	Overflow: hidden;
+	Width: 1000px;
+	Margin: 0px auto;
+	Padding: 50px 0px;
+	Color: #FFFFFF;
+}
+
+#footer-content h2 {
+	Color: #FFFFFF;
+}
+
+#footer-content a {
+}
+
+#footer-bg {
+	Overflow: hidden;
+	Padding: 30px 0px;
+	Background: #E8E8E8;
+}
+
+#footer-content h2 {
+	Margin: 0px;
+	Padding: 0px 0px 20px 0px;
+	Font-size: 26px;
+	Color: Black;
+}
+
+#footer-content #fbox1 {
+	Float: left;
+	Width: 300px;
+	Margin-right: 50px;
+}
+
+#footer-content #fbox2 {
+	Float: left;
+	Width: 300px;
+	margin-right: 50px;
+}
+
+#footer-content #fbox3 {
+	Float: right;
+	Width: 300px;
+}
+
+#footer-content a {
+}
+
+#column1 {
+	Float: left;
+	Width: 290px;
+	Margin-right: 30px;
+}
+
+#column2 {
+	Float: left;
+	Width: 290px;
+}
+
+#column3 {
+	Float: right;
+	Width: 290px;
+}
+
+/* Footer */
+
+#footer {
+	Height: 140px;
+	Margin: 0 auto;
+	Padding: 50px 0 15px 0;
+	Font-family: ‘Abel’, sans-serif;
+	Background: #D6D6D6 url(images/img01.jpg) repeat;
+}
+
+#footer p {
+	Margin: 0;
+	Padding-top: 10px;
+	Letter-spacing: 1px;
+	Line-height: normal;
+	Font-size: 14px;
+	Text-transform: uppercase;
+	Text-align: center;
+	Color: #2A2A2A;
+}
+
+#footer a {
+	Color: #2A2A2A;
+}
+
+#banner {
+	Margin: 0px auto;
+	Width: 1000px;
+	Height: 440px;
+	Background: url(images/banner.jpg) no-repeat left bottom;
+}
+
+#banner .content {
+}
+
+.list-style1 {
+	Margin: 0px;
+	Padding: 0px;
+	List-style: none;
+}
+
+.list-style1 a {
+	Color: #7F7F7F;
+}
+
+/** LIST STYLE 1 */
+
+Ul.style1 {
+	Margin: 0px;
+	Padding: 0px 0px 0px 0px;
+	List-style: none;
+}
+
+Ul.style1 li {
+	Padding: 10px 0px 10px 0px;
+	Border-top: 1px solid #162738;
+	Line-height: 160%;
+}
+
+Ul.style1 a {
+	Display: block;
+	Padding: 0px 0px 0px 0px;
+	Text-decoration: none;
+	Color: #93B2A0;
+}
+
+Ul.style1 a:hover {
+	Text-decoration: underline;
+}
+
+Ul.style1 .first {
+	Border-top: none;
+	Padding-top: 0px;
+}
+
+#featured-content {
+	Overflow: hidden;
+	Width: 1000px;
+	Margin: 0px auto;
+	Padding: 30px 0px;
+	Border-bottom: 5px solid #E9EAEE;
+}
+
+#featured-content h2 {
+	Padding: 0px 0px 20px 0px;
+	Font-size: 30px;
+}
+
+#featured-content #column1 p{
+	Float: left;
+	Width: 300px;
+	Margin-right: 50px;
+}
+
+#featured-content #column2 {
+	Float: left;
+	Width: 320px;
+	margin-left: 15px;
+}
+
+#featured-content #column3 {
+	Float: right;
+	Width: 300px;
+}
+p:hover{
+	background: #E8E8E8;
+}
+
+.button a {
+	Display: block;
+	Float: left;
+	Width: 88px;
+	Padding: 5px 5px;
+	Margin-right: 10px;
+	Background: #132434;
+	Border-radius: 5px;
+	Color: #FFFFFF;
+	Text-align: center;
+	Text-decoration: none;
+}
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// style UI elements inside atom-text-editor
+atom-text-editor .cursor {
+  // border-color: red;
+}
